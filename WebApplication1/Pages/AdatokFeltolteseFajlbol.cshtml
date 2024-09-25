@@ -1,0 +1,10 @@
+﻿@page
+@model WebApplication1.Pages.AdatokFeltolteseFajlbolModel
+@{
+}
+<h1>Adatok feltöltése</h1>
+<form enctype="multipart/form-data" method="post">
+    <label asp-for="UploadFile">Add meg a...</label>
+    <input type="file" asp-for="UploadFile"/>
+    <input type="submit" value="Feltöltés"/>
+</form>
